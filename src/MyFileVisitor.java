@@ -60,9 +60,9 @@ public class MyFileVisitor extends SimpleFileVisitor<Path> {
                 }
             }
             System.out.println("正在上传"+file.toAbsolutePath().toString());
-                String endpoint = "oss-cn-beijing.aliyuncs.com";
-                String accessKeyId = "LTAIf91bRit47w1Q";
-                String accessKeySecret = "NasoXjl5psg1ES3egg33fpAOd4rvd4";
+                String endpoint = "";
+                String accessKeyId = "";
+                String accessKeySecret = "";
                 OSSClient ossClient = new OSSClient(endpoint, accessKeyId,
                         accessKeySecret);
                // ossClient.putObject("yunchengpaper", "lh/" + file.getFileName(), new FileInputStream(file.toAbsolutePath().toString()));
