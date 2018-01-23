@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="move_img:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/move_head_img_jar</output-path>
+    <root id="archive" name="move_img.jar">
+      <element id="module-output" name="move_img" />
+      <element id="library" level="project" name="httpclient-4.5.3" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/aliyun-sdk-oss-2.8.2.jar" path-in-jar="/" />
+      <element id="library" level="project" name="httpclient-4.5.3-sources" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/commons-codec-1.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/hamcrest-core-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/httpclient-4.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/httpcore-4.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/jdom-1.1.jar" path-in-jar="/" />
+      <element id="library" level="project" name="httpcore-4.4.8" />
+    </root>
+  </artifact>
+</component>
